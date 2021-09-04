@@ -1,0 +1,92 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACT2FN	bert&transformer/modeling_bert.py	/^ACT2FN = {"gelu": gelu, "relu": torch.nn.functional.relu, "swish": swish, "gelu_new": gelu_new, "mish": mish}$/;"	v
+BERT_PRETRAINED_MODEL_ARCHIVE_MAP	bert&transformer/modeling_bert.py	/^BERT_PRETRAINED_MODEL_ARCHIVE_MAP = {$/;"	v
+BertAttention	bert&transformer/modeling_bert.py	/^class BertAttention(nn.Module):$/;"	c
+BertEmbeddings	bert&transformer/modeling_bert.py	/^class BertEmbeddings(nn.Module):$/;"	c
+BertEncoder	bert&transformer/modeling_bert.py	/^class BertEncoder(nn.Module):$/;"	c
+BertForMaskedLM	bert&transformer/modeling_bert.py	/^class BertForMaskedLM(BertPreTrainedModel):$/;"	c
+BertForMultipleChoice	bert&transformer/modeling_bert.py	/^class BertForMultipleChoice(BertPreTrainedModel):$/;"	c
+BertForNextSentencePrediction	bert&transformer/modeling_bert.py	/^class BertForNextSentencePrediction(BertPreTrainedModel):$/;"	c
+BertForPreTraining	bert&transformer/modeling_bert.py	/^class BertForPreTraining(BertPreTrainedModel):$/;"	c
+BertForQuestionAnswering	bert&transformer/modeling_bert.py	/^class BertForQuestionAnswering(BertPreTrainedModel):$/;"	c
+BertForSequenceClassification	bert&transformer/modeling_bert.py	/^class BertForSequenceClassification(BertPreTrainedModel):$/;"	c
+BertForTokenClassification	bert&transformer/modeling_bert.py	/^class BertForTokenClassification(BertPreTrainedModel):$/;"	c
+BertIntermediate	bert&transformer/modeling_bert.py	/^class BertIntermediate(nn.Module):$/;"	c
+BertLMPredictionHead	bert&transformer/modeling_bert.py	/^class BertLMPredictionHead(nn.Module):$/;"	c
+BertLayer	bert&transformer/modeling_bert.py	/^class BertLayer(nn.Module):$/;"	c
+BertLayerNorm	bert&transformer/modeling_bert.py	/^BertLayerNorm = torch.nn.LayerNorm$/;"	v
+BertModel	bert&transformer/modeling_bert.py	/^class BertModel(BertPreTrainedModel):$/;"	c
+BertOnlyMLMHead	bert&transformer/modeling_bert.py	/^class BertOnlyMLMHead(nn.Module):$/;"	c
+BertOnlyNSPHead	bert&transformer/modeling_bert.py	/^class BertOnlyNSPHead(nn.Module):$/;"	c
+BertOutput	bert&transformer/modeling_bert.py	/^class BertOutput(nn.Module):$/;"	c
+BertPooler	bert&transformer/modeling_bert.py	/^class BertPooler(nn.Module):$/;"	c
+BertPreTrainedModel	bert&transformer/modeling_bert.py	/^class BertPreTrainedModel(PreTrainedModel):$/;"	c
+BertPreTrainingHeads	bert&transformer/modeling_bert.py	/^class BertPreTrainingHeads(nn.Module):$/;"	c
+BertPredictionHeadTransform	bert&transformer/modeling_bert.py	/^class BertPredictionHeadTransform(nn.Module):$/;"	c
+BertSelfAttention	bert&transformer/modeling_bert.py	/^class BertSelfAttention(nn.Module):$/;"	c
+BertSelfOutput	bert&transformer/modeling_bert.py	/^class BertSelfOutput(nn.Module):$/;"	c
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertAttention
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertEmbeddings
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertEncoder
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertForMaskedLM
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertForMultipleChoice
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertForNextSentencePrediction
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertForPreTraining
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertForQuestionAnswering
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertForSequenceClassification
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertForTokenClassification
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertIntermediate
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertLMPredictionHead
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertLayer
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertModel
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertOnlyMLMHead
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertOnlyNSPHead
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertOutput
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertPooler
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertPreTrainingHeads
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertPredictionHeadTransform
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertSelfAttention
+__init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertSelfOutput
+_init_weights	bert&transformer/modeling_bert.py	/^    def _init_weights(self, module):$/;"	m	class:BertPreTrainedModel
+_prune_heads	bert&transformer/modeling_bert.py	/^    def _prune_heads(self, heads_to_prune):$/;"	m	class:BertModel
+base_model_prefix	bert&transformer/modeling_bert.py	/^    base_model_prefix = "bert"$/;"	v	class:BertPreTrainedModel
+config_class	bert&transformer/modeling_bert.py	/^    config_class = BertConfig$/;"	v	class:BertPreTrainedModel
+forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertAttention
+forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertEncoder
+forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertForMaskedLM
+forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertForMultipleChoice
+forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertForNextSentencePrediction
+forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertForPreTraining
+forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertForQuestionAnswering
+forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertForSequenceClassification
+forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertForTokenClassification
+forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertLayer
+forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertModel
+forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertSelfAttention
+forward	bert&transformer/modeling_bert.py	/^    def forward(self, hidden_states):$/;"	m	class:BertIntermediate
+forward	bert&transformer/modeling_bert.py	/^    def forward(self, hidden_states):$/;"	m	class:BertLMPredictionHead
+forward	bert&transformer/modeling_bert.py	/^    def forward(self, hidden_states):$/;"	m	class:BertPooler
+forward	bert&transformer/modeling_bert.py	/^    def forward(self, hidden_states):$/;"	m	class:BertPredictionHeadTransform
+forward	bert&transformer/modeling_bert.py	/^    def forward(self, hidden_states, input_tensor):$/;"	m	class:BertOutput
+forward	bert&transformer/modeling_bert.py	/^    def forward(self, hidden_states, input_tensor):$/;"	m	class:BertSelfOutput
+forward	bert&transformer/modeling_bert.py	/^    def forward(self, input_ids=None, token_type_ids=None, position_ids=None, inputs_embeds=None):$/;"	m	class:BertEmbeddings
+forward	bert&transformer/modeling_bert.py	/^    def forward(self, pooled_output):$/;"	m	class:BertOnlyNSPHead
+forward	bert&transformer/modeling_bert.py	/^    def forward(self, sequence_output):$/;"	m	class:BertOnlyMLMHead
+forward	bert&transformer/modeling_bert.py	/^    def forward(self, sequence_output, pooled_output):$/;"	m	class:BertPreTrainingHeads
+get_input_embeddings	bert&transformer/modeling_bert.py	/^    def get_input_embeddings(self):$/;"	m	class:BertModel
+get_output_embeddings	bert&transformer/modeling_bert.py	/^    def get_output_embeddings(self):$/;"	m	class:BertForMaskedLM
+get_output_embeddings	bert&transformer/modeling_bert.py	/^    def get_output_embeddings(self):$/;"	m	class:BertForPreTraining
+load_tf_weights	bert&transformer/modeling_bert.py	/^    load_tf_weights = load_tf_weights_in_bert$/;"	v	class:BertPreTrainedModel
+load_tf_weights_in_bert	bert&transformer/modeling_bert.py	/^def load_tf_weights_in_bert(model, config, tf_checkpoint_path):$/;"	f
+logger	bert&transformer/modeling_bert.py	/^logger = logging.getLogger(__name__)$/;"	v
+mish	bert&transformer/modeling_bert.py	/^def mish(x):$/;"	f
+prepare_inputs_for_generation	bert&transformer/modeling_bert.py	/^    def prepare_inputs_for_generation(self, input_ids, attention_mask=None, **model_kwargs):$/;"	m	class:BertForMaskedLM
+pretrained_model_archive_map	bert&transformer/modeling_bert.py	/^    pretrained_model_archive_map = BERT_PRETRAINED_MODEL_ARCHIVE_MAP$/;"	v	class:BertPreTrainedModel
+prune_heads	bert&transformer/modeling_bert.py	/^    def prune_heads(self, heads):$/;"	m	class:BertAttention
+set_input_embeddings	bert&transformer/modeling_bert.py	/^    def set_input_embeddings(self, value):$/;"	m	class:BertModel
+transpose_for_scores	bert&transformer/modeling_bert.py	/^    def transpose_for_scores(self, x):$/;"	m	class:BertSelfAttention
