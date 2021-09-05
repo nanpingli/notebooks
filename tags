@@ -30,6 +30,10 @@ BertPreTrainingHeads	bert&transformer/modeling_bert.py	/^class BertPreTrainingHe
 BertPredictionHeadTransform	bert&transformer/modeling_bert.py	/^class BertPredictionHeadTransform(nn.Module):$/;"	c
 BertSelfAttention	bert&transformer/modeling_bert.py	/^class BertSelfAttention(nn.Module):$/;"	c
 BertSelfOutput	bert&transformer/modeling_bert.py	/^class BertSelfOutput(nn.Module):$/;"	c
+DataSet	Tensorflow-Examples/input_data.py	/^class DataSet(object):$/;"	c
+DataSets	Tensorflow-Examples/input_data.py	/^  class DataSets(object):$/;"	c	function:read_data_sets
+SOURCE_URL	Tensorflow-Examples/input_data.py	/^SOURCE_URL = 'http:\/\/yann.lecun.com\/exdb\/mnist\/'$/;"	v
+__init__	Tensorflow-Examples/input_data.py	/^  def __init__(self, images, labels, fake_data=False):$/;"	m	class:DataSet
 __init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertAttention
 __init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertEmbeddings
 __init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertEncoder
@@ -54,8 +58,13 @@ __init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"
 __init__	bert&transformer/modeling_bert.py	/^    def __init__(self, config):$/;"	m	class:BertSelfOutput
 _init_weights	bert&transformer/modeling_bert.py	/^    def _init_weights(self, module):$/;"	m	class:BertPreTrainedModel
 _prune_heads	bert&transformer/modeling_bert.py	/^    def _prune_heads(self, heads_to_prune):$/;"	m	class:BertModel
+_read32	Tensorflow-Examples/input_data.py	/^def _read32(bytestream):$/;"	f
 base_model_prefix	bert&transformer/modeling_bert.py	/^    base_model_prefix = "bert"$/;"	v	class:BertPreTrainedModel
 config_class	bert&transformer/modeling_bert.py	/^    config_class = BertConfig$/;"	v	class:BertPreTrainedModel
+dense_to_one_hot	Tensorflow-Examples/input_data.py	/^def dense_to_one_hot(labels_dense, num_classes=10):$/;"	f
+epochs_completed	Tensorflow-Examples/input_data.py	/^  def epochs_completed(self):$/;"	m	class:DataSet
+extract_images	Tensorflow-Examples/input_data.py	/^def extract_images(filename):$/;"	f
+extract_labels	Tensorflow-Examples/input_data.py	/^def extract_labels(filename, one_hot=False):$/;"	f
 forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertAttention
 forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertEncoder
 forward	bert&transformer/modeling_bert.py	/^    def forward($/;"	m	class:BertForMaskedLM
@@ -81,12 +90,18 @@ forward	bert&transformer/modeling_bert.py	/^    def forward(self, sequence_outpu
 get_input_embeddings	bert&transformer/modeling_bert.py	/^    def get_input_embeddings(self):$/;"	m	class:BertModel
 get_output_embeddings	bert&transformer/modeling_bert.py	/^    def get_output_embeddings(self):$/;"	m	class:BertForMaskedLM
 get_output_embeddings	bert&transformer/modeling_bert.py	/^    def get_output_embeddings(self):$/;"	m	class:BertForPreTraining
+images	Tensorflow-Examples/input_data.py	/^  def images(self):$/;"	m	class:DataSet
+labels	Tensorflow-Examples/input_data.py	/^  def labels(self):$/;"	m	class:DataSet
 load_tf_weights	bert&transformer/modeling_bert.py	/^    load_tf_weights = load_tf_weights_in_bert$/;"	v	class:BertPreTrainedModel
 load_tf_weights_in_bert	bert&transformer/modeling_bert.py	/^def load_tf_weights_in_bert(model, config, tf_checkpoint_path):$/;"	f
 logger	bert&transformer/modeling_bert.py	/^logger = logging.getLogger(__name__)$/;"	v
+maybe_download	Tensorflow-Examples/input_data.py	/^def maybe_download(filename, work_directory):$/;"	f
 mish	bert&transformer/modeling_bert.py	/^def mish(x):$/;"	f
+next_batch	Tensorflow-Examples/input_data.py	/^  def next_batch(self, batch_size, fake_data=False):$/;"	m	class:DataSet
+num_examples	Tensorflow-Examples/input_data.py	/^  def num_examples(self):$/;"	m	class:DataSet
 prepare_inputs_for_generation	bert&transformer/modeling_bert.py	/^    def prepare_inputs_for_generation(self, input_ids, attention_mask=None, **model_kwargs):$/;"	m	class:BertForMaskedLM
 pretrained_model_archive_map	bert&transformer/modeling_bert.py	/^    pretrained_model_archive_map = BERT_PRETRAINED_MODEL_ARCHIVE_MAP$/;"	v	class:BertPreTrainedModel
 prune_heads	bert&transformer/modeling_bert.py	/^    def prune_heads(self, heads):$/;"	m	class:BertAttention
+read_data_sets	Tensorflow-Examples/input_data.py	/^def read_data_sets(train_dir, fake_data=False, one_hot=False):$/;"	f
 set_input_embeddings	bert&transformer/modeling_bert.py	/^    def set_input_embeddings(self, value):$/;"	m	class:BertModel
 transpose_for_scores	bert&transformer/modeling_bert.py	/^    def transpose_for_scores(self, x):$/;"	m	class:BertSelfAttention
